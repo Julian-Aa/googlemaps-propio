@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/verde_fondo"
+    tools:context=".actividades.RegistroActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:src="@mipmap/ic_launcher_round" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/nombre_layout"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/gris"
+        app:boxStrokeColor="@color/purple_200"
+        android:hint="@string/txt_nombre"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp">>
+
+        <EditText
+            android:id="@+id/nombre_usuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/gris"
+            android:backgroundTint="@android:color/transparent"
+            android:hint="" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/nickname_layout"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/gris"
+        app:boxStrokeColor="@color/purple_200"
+        android:hint="@string/txt_nickname"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp">>
+
+        <EditText
+            android:id="@+id/nickname_usuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/gris"
+            android:backgroundTint="@android:color/transparent"
+            android:hint="" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/email_layout"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/gris"
+        app:boxStrokeColor="@color/purple_200"
+        android:hint="@string/txt_email"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp">>
+
+        <EditText
+            android:id="@+id/email_usuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/gris"
+            android:backgroundTint="@android:color/transparent"
+            android:hint="" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/password_layout"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/gris"
+        app:boxStrokeColor="@color/purple_200"
+        android:hint="@string/txt_password"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp">>
+
+        <EditText
+            android:id="@+id/pass_usuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/gris"
+            android:backgroundTint="@android:color/transparent"
+            android:hint="" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <Button
+        android:id="@+id/btn_registro"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="90dp"
+        android:textColor="@color/blanco"
+        android:backgroundTint="@color/verde_botones"
+        android:text="@string/txt_registro" />
+
+</LinearLayout>

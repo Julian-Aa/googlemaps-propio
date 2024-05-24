@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/verde_fondo"
+    tools:context=".actividades.LoginActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher_round" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/email_layout"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/gris"
+        app:boxStrokeColor="@color/purple_200"
+        android:hint="@string/txt_email"
+        android:layout_marginTop="55dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp">>
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/gris"
+            android:backgroundTint="@android:color/transparent"
+            android:hint="" /> <!-- Deja el hint vacío en el EditText para que el TextInputLayout muestre el hint -->
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/password_layout"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/gris"
+        app:boxStrokeColor="@color/purple_200"
+        android:hint="@string/txt_password"
+        android:layout_marginTop="18dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp">
+
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="match_parent"
+            android:textColor="@color/gris"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/transparent"
+            android:hint=""
+            android:inputType="textPassword" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <TextView
+        android:id="@+id/textViewForgotPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="25dp"
+        android:gravity="end"
+        android:text="@string/txt_olvidoContraseña"
+        android:textColor="@color/verde_oscuro" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="20dp"
+            android:textColor="@color/blanco"
+            android:backgroundTint="@color/verde_botones"
+            android:text="@string/txt_login" />
+
+
+    </LinearLayout>
+    <TextView
+
+        android:id="@+id/textViewRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="66dp"
+        android:gravity="center"
+        android:text="@string/txt_registrarse"
+        android:textColor="@color/verde_oscuro" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:gravity="center"
+        android:text="@string/txt_copyrigth"
+        android:textColor="@color/verde_oscuro" />
+
+</LinearLayout>

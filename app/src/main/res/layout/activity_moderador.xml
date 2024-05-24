@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/blanco"
+    tools:context=".actividades.ModeradorActivity">
+
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:background="@color/blanco"
+        app:tabIndicatorColor="@color/verde"
+        app:tabIndicatorFullWidth="false"
+        app:tabMode="fixed"
+        app:tabTextAppearance="@android:style/TextAppearance.Widget.TabWidget"
+        app:tabTextColor="@color/verde_oscuro" />
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="578dp"
+        android:layout_below="@+id/tabs"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:id="@+id/layout_content"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <Button
+            android:id="@+id/btn_menu"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:layout_above="@+id/view_pager"
+            android:layout_weight="15"
+            android:fontFamily="@font/font_awesome_6_free_solid_900"
+            android:text="\uf0c9"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="313dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:text="MENU MODERADOR"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "249368476665",
+    "project_id": "eam-a-ffbde",
+    "storage_bucket": "eam-a-ffbde.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:249368476665:android:3f21c2619823ea2c055b28",
+        "android_client_info": {
+          "package_name": "co.edu.eam.unilocal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPZvvB3FK6_5bkkP8iV9uFiLH1PWV9oz0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

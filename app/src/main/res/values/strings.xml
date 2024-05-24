@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">unilocal</string>
+
+    <!-- Textos son de el layout del main -->
+    <string name="txt_busqueda">Buscar lugares</string>
+    <string name="txt_registrarse">Registrarse</string>
+    <string name="txt_btn_login">Ir a login</string>
+    <string name="txt_olvidoContraseña">Olvidé mi contraseña</string>
+
+    <!-- Textos son de el layout del login -->
+    <string name="txt_email">Escriba su correo</string>
+    <string name="txt_password">Escriba su contraseña</string>
+    <string name="txt_login">Iniciar sesión</string>
+    <string name="txt_registro">Registrarse</string>
+    <string name="txt_copyrigth">©Unilocal Todos los derechos reservados</string>
+
+    <!-- Textos del registro -->
+    <string name="txt_nombre">Escriba su nombre</string>
+    <string name="txt_nickname">Escriba su nickname</string>
+    <string name="usuario_creado">Usuario registrado correctamente</string>
+    <string name="txt_continuar_google">Continuar con Google</string>
+
+    <!-- Textos de crear lugar -->
+    <string name="txt_nombre_lugar">Nombre del lugar</string>
+    <string name="txt_descripcion_lugar">Descripción del lugar</string>
+    <string name="txt_telefono_lugar">Teléfono del lugar</string>
+    <string name="btn_crear_lugar">Crear nuevo lugar</string>
+    <string name="btn_nuevo_lugar">Nuevo lugar</string>
+    <string name="btn_direccion_lugar">Dirección del lugar</string>
+    <string name="lugar_creado">Lugar creado correctamente. En revisión por un moderador.</string>
+    <string name="mensaje_mapa">Es necesario seleccionar una ubicación en el mapa</string>
+    <string name="paso_3">Paso 3/3: Elegir ubicación</string>
+    <string name="paso_1">Paso 1/3: Información básica</string>
+    <string name="paso_2">Paso 2/3: Selección de horarios</string>
+    <string name="horario_validacion">Es necesario asignar al menos un horario</string>
+
+    <!-- Textos de validaciones -->
+    <string name="es_obligatorio">Este campo es obligatorio</string>
+    <string name="maximo_caracteres">Máximo 10 caracteres</string>
+    <string name="datos_correctos">Los datos son correctos</string>
+    <string name="datos_incorrectos">Los datos son incorrectos</string>
+
+    <!-- Textos del menú inferior -->
+    <string name="mapa">Mapa</string>
+    <string name="mis_lugares">Comunidad</string>
+    <string name="favoritos">Favoritos</string>
+
+    <!-- Textos del admin -->
+    <string name="pantalla_admin">Pantalla admin</string>
+    <string name="horarios_del_lugar">Horarios del lugar</string>
+
+    <!-- Textos detalle lugar -->
+    <string name="info_lugar">Información del lugar</string>
+    <string name="comentarios">Comentarios</string>
+    <string name="escribir_comentario">Escribir comentario</string>
+    <string name="comentar">Comentar</string>
+    <string name="sin_comentarios">Aún no hay comentarios</string>
+    <string name="comentario_realizado">Se ha enviado el comentario</string>
+    <string name="comentario_error">Debe escribir el comentario y seleccionar las estrellas</string>
+    <string name="abierto">Abierto</string>
+    <string name="cerrado">Cerrado</string>
+    <string name="comentario_actualizado">Comentario actualizado</string>
+
+
+    <!-- Textos moderador -->
+    <string name="deshacer">Deshacer</string>
+    <string name="lugar_aceptado">¡Lugar aceptado!</string>
+    <string name="lugar_rechazado">¡Lugar rechazado!</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="rechazar">Rechazar</string>
+    <string name="lugares_rechazados">lugares rechazados</string>
+    <string name="perfil">Perfil</string>
+    <string name="cerrar_sesion">Cerrar sesión</string>
+    <string name="mas_opciones">Más opciones</string>
+
+    <!-- textos usuario-->
+    <string name="imagen_de_perfil">Foto de perfil</string>
+    <string name="nombre_usuario">Nombre usuario</string>
+    <string name="nickname">nickname</string>
+    <string name="correo_electronico">Correo</string>
+    <string name="contraseña">contraseña</string>
+    <string name="editar_perfil">Editar perfil</string>
+    <string name="guardar">Guardar cambios</string>
+
+
+    <!-- Textos navigation view -->
+    <string name="abrir">Abrir</string>
+    <string name="cerrar">Cerrar</string>
+    <string name="cambiar_idioma">Cambiar idioma</string>
+
+    <!-- Textos Horarios -->
+    <string name="agregar_horario">Añadir horario</string>
+    <string name="hora_cierre">Hora cierre</string>
+    <string name="hora_inicio">Hora inicio</string>
+    <string name="horario_del_lugar">Horario del lugar</string>
+    <string name="lista_de_horario">Lista de horario</string>
+
+    <!-- Validaciones -->
+    <string name="sin_registros">Aún no hay registros</string>
+    <string name="todos_obligatorios">Todos los campos son obligatorios</string>
+    <string name="confirmar_cambios">¿Desea guardar los cambios?</string>
+
+    <!-- Perfil -->
+    <string name="aportes">Aportes</string>
+    <string name="lugares_guardados">Guardados</string>
+    <string name="calificacion_promedio">Calificación romedio</string>
+
+
+
+
+</resources>

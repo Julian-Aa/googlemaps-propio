@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/menu/menu_opciones.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/opcion1"
+        android:title="@string/cambiar_idioma"/>
+    <item
+        android:id="@+id/opcion2"
+        android:title="@string/cerrar_sesion"/>
+</menu>

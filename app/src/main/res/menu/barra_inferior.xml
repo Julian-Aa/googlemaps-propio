@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_inicio"
+        android:icon="@drawable/baseline_map_24"
+        android:title="@string/mapa" />
+
+    <item
+        android:id="@+id/menu_mis_lugares"
+        android:icon="@drawable/baseline_add_location_24"
+        android:title="@string/mis_lugares" />
+
+    <item
+        android:id="@+id/menu_favoritos"
+        android:icon="@drawable/baseline_bookmark_24"
+        android:title="@string/favoritos" />
+
+</menu>
